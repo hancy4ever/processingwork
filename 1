@@ -1,0 +1,349 @@
+float rectX = 503, rectY = 442;
+float bezierPts1[] = {519, 425, 477, 340, 452, 421, 537, 486};
+float bezierPts2[] = {435, 440, 383, 270, 465, 410, 433, 466};
+float bezierPts3[] = {399, 319, 457, 229, 426, 300, 387, 363};
+float bezierPts4[] = {486, 234, 401, 232, 402, 364, 403, 415};
+float bezierPts5[] = {495, 486, 336, 339, 450, 352, 463, 279};
+float bezierPts6[] = {530, 435, 481, 394, 500, 337, 492, 314};
+float bezierPts7[] = {569, 373, 611, 359, 612, 367, 644, 308};
+float bezierPts8[] = {524, 370, 582, 360, 613, 369, 664, 272};
+float bezierPts9[] = {604, 390, 607, 398, 640, 379, 676, 266};
+float bezierPts10[] = {608, 404, 619, 414, 727, 328, 680, 261};
+float bezierPts11[] = {627, 463, 649, 458, 693, 396, 682, 373};
+float bezierPts12[] = {654, 406, 737, 401, 705, 381, 680, 284};
+float bezierPts13[] = {628, 482, 679, 461, 692, 433, 670, 391};
+float bezierPts14[] = {521, 436, 479, 454, 558, 345, 512, 286};
+float bezierPts15[] = {512, 482, 594, 455, 368, 376, 500, 299};
+float bezierPts16[] = {628, 482, 679, 461, 692, 433, 670, 391};
+float bezierPts17[] = {608, 516, 603, 461, 720, 433, 701, 391};
+float bezierPts18[] = {448, 503, 479, 461, 354, 433, 535, 325};
+float bezierPts19[] = {726,883,699,843,590,656,667,626};
+float bezierPts20[] = {744,1135,634,870,697,1048,670,771};
+float bezierPts21[] = {785,1194,791,968,768,1085,712,875};
+float bezierPts22[] = {744,1139,765,1058,714,742,665,766};
+float bezierPts23[] = {715,1021,766,1034,709,742,659,725};
+float bezierPts24[] = {720,1022,677,991,680,867,661,744};
+float bezierPts25[] = {403,645,393,554,466,574,508,515};
+float bezierPts26[] = {340,657,327,554,349,610,499,548};
+float bezierPts27[] = {403,645,393,554,483,574,508,515};
+float bezierPts28[] = {352,852,330,554,328,657,464,567};
+float bezierPts29[] = {596,664,880,604,609,610,578,548};
+float bezierPts30[] = {459,942,419,715,363,784,463,567};
+float bezierPts31[] = {639,946,632,863,685,719,574,657};
+float bezierPts32[] = {636,805,657,776,714,689,584,592};
+float bezierPts33[] = {365,942,428,880,394,809,411,651};
+float bezierPts34[] = {301,1114,338,903,363,950,399,876};
+float bezierPts35[] = {366,1021,324,715,371,784,402,713};
+float bezierPts36[] = {356,1009,434,955,414,886,405,806};
+float bezierPts37[] = {301, 1184, 422, 992, 377, 1042, 407, 930};
+float bezierPts38[] = {276, 1258, 321, 886, 337, 1008, 400, 956};
+float bezierPts39[] = {298, 1298, 341, 1197, 324, 1290, 312, 1161};
+float bezierPts40[] = {282, 1304, 246, 1249, 267, 1295, 279, 1246};
+float bezierPts41[] = {316, 1324, 290, 1262, 242, 1358, 311, 1130};
+float bezierPts42[] = {347, 1326, 306, 1285, 312, 1326, 316, 1323};
+float bezierPts43[] = {358, 1309, 306, 1291, 312, 1306, 316, 1316};
+float bezierPts44[] = {701, 1187, 698, 1020, 656, 993, 635, 924};
+float bezierPts45[] = {529, 1094, 279, 1071, 474, 1035, 458, 918};
+float bezierPts46[] = {397, 1304, 347, 1148, 380, 1064, 415, 1033};
+float bezierPts47[] = {664, 1371, 712, 1290, 704, 1168, 696, 1109};
+float bezierPts48[] = {501, 1512, 585, 1080, 487, 1090, 495, 1033};
+float bezierPts49[] = {503, 1341, 421, 1491, 430, 1441, 396, 1297};
+float bezierPts50[] = {440, 1555, 408, 1491, 431, 1386, 439, 1410};
+float bezierPts51[] = {617, 1469, 562, 1313, 544, 1254, 555, 1033};
+float bezierPts52[] = {639, 1512, 577, 1463, 594, 1511, 585, 1353};
+float bezierPts53[] = {661, 1515, 728, 1536, 707, 1477, 664, 1415};
+float bezierPts54[] = {637, 1574, 678, 1426, 679, 1435, 676, 1292};
+float bezierPts55[] = {664, 1500, 607, 1568, 560, 1462, 623, 1162};
+float bezierPts56[] = {679, 1123, 577, 1098, 543, 1227, 504, 1110};
+float bezierPts57[] = {418, 657, 474, 478, 556, 490, 619, 605};
+float bezierPts58[] = {632, 1487, 812, 1186, 512, 1155, 504, 929};
+float bezierPts59[] = {432, 1372, 377, 1278, 346, 1155, 428, 1030};
+float bezierPts60[] = {612, 1368, 684, 1235, 774, 1302, 586, 787};
+float bezierPts61[] = {738, 1207, 737, 1177, 724, 1203, 753, 1114};
+float bezierPts62[] = {770, 1235, 801, 1154, 797, 1225, 779, 1135};
+float bezierPts63[] = {770, 1234, 767, 1211, 732, 1231, 721, 1275};
+float bezierPts64[] = {774, 1220, 772, 1195, 716, 1221, 719, 1249};
+float bezierPts65[] = {772, 1184, 794, 1253, 756, 1230, 758, 1216};
+float bezierPts66[] = {785, 1117, 764, 1213, 760, 1123, 771, 1220};
+float bezierPts67[] = {786, 1134, 767, 1176, 744, 1231, 739, 1177};
+float bezierPts68[] = {747, 1029, 813, 1176, 762, 1231, 738, 1217};
+float bezierPts69[] = {554, 261, 558, 252, 495, 221, 492, 284};
+float bezierPts70[] = {672, 278, 663, 280, 718, 300, 684, 341};
+float bezierPts71[] = {337, 1122, 302, 1127, 292, 1251, 303, 1221};
+float bezierPts72[] = {319, 1258, 330, 1359, 344, 1292, 325, 1240};
+float bezierPts73[] = {665, 630, 760, 588, 715, 610, 725, 880};
+float bezierPts74[] = {665, 630, 760, 588, 715, 610, 725, 880};
+float bezierPts75[] = {665, 630, 760, 588, 715, 610, 725, 880};
+float bezierPts76[] = {431, 576, 494, 548, 445, 535, 403, 745};
+float bezierPts77[] = {432, 826, 417, 767, 389, 756, 420, 655};
+float bezierPts78[] = {421, 671, 425, 625, 501, 610, 485, 631};
+float bezierPts79[] = {611, 574, 569, 556, 679, 713, 642, 643};
+float bezierPts80[] = {586, 625, 625, 617, 649, 641, 651, 657};
+float bezierPts81[] = {440, 814, 468, 829, 528, 857, 527, 871};
+float bezierPts82[] = {440, 814, 442, 842, 528, 890, 527, 871};
+float bezierPts83[] = {455, 859, 460, 858, 528, 915, 536, 927};
+float bezierPts84[] = {455, 857, 442, 892, 528, 940, 535, 926};
+float bezierPts85[] = {646, 804, 640, 796, 593, 857, 603, 871};
+float bezierPts86[] = {644, 805, 641, 832, 616, 874, 603, 871};
+float bezierPts87[] = {642, 867, 640, 845, 593, 917, 594, 928};
+float bezierPts88[] = {642, 866, 638, 882, 618, 929, 596, 924};
+float currentRadius;
+float centerX, centerY;
+
+void setup(){
+  size(1080,1502); 
+  background(#E0DEDE);
+  centerX = width / 2;
+  centerY = height / 2;
+  frameRate(5);
+  currentRadius =200;
+}
+
+void draw(){
+  background(#E0DEDE);
+  stroke(255);
+  line(4,370,1070,1502);
+  line(204,42,1040,885);
+  line(1,707,690,1476);
+  noStroke();
+  
+  float distance = dist(mouseX, mouseY, centerX, centerY);
+  float maxDist = dist(0, 0, width, height); 
+  
+  float scatterFactor = map(distance, 0, maxDist, 0, 200); 
+
+  // 绘制矩形，打散位置根据鼠标距离
+  float rectOffsetX = random(-scatterFactor, scatterFactor);
+  float rectOffsetY = random(-scatterFactor, scatterFactor);
+  fill(#F5DCD7);
+  rect(rectX + rectOffsetX, rectY + rectOffsetY, 73, 76);
+
+  float quadOffsetX1 = random(-scatterFactor, scatterFactor);
+  float quadOffsetY1 = random(-scatterFactor, scatterFactor);
+  float quadOffsetX2 = random(-scatterFactor, scatterFactor);
+  float quadOffsetY2 = random(-scatterFactor, scatterFactor);
+  fill(#FCEEE5);
+  quad(503 + quadOffsetX1, 428 + quadOffsetY1, 
+       563 + quadOffsetX2, 507 + quadOffsetY2, 
+       625, 475, 656, 247);
+
+  float ellipse1OffsetX = random(-scatterFactor, scatterFactor);
+  float ellipse1OffsetY = random(-scatterFactor, scatterFactor);
+  ellipse(626 + ellipse1OffsetX, 397 + ellipse1OffsetY, 55, 152);
+  float ellipse2OffsetX = random(-scatterFactor, scatterFactor);
+  float ellipse2OffsetY = random(-scatterFactor, scatterFactor);
+  ellipse(572 + ellipse2OffsetX, 360+ ellipse2OffsetY, 235, 189);
+  fill(#94ACE8);
+  float ellipse3OffsetX = random(-scatterFactor, scatterFactor);
+  float ellipse3OffsetY = random(-scatterFactor, scatterFactor);
+  ellipse(560 + ellipse3OffsetX, 278 + ellipse3OffsetY, 228, 165);
+
+  float ellipse4OffsetX = random(-scatterFactor, scatterFactor);
+  float ellipse4OffsetY = random(-scatterFactor, scatterFactor);
+  ellipse(664+ ellipse4OffsetX,300 + ellipse4OffsetY, 44, 143);
+
+  // 绘制贝塞尔曲线，分别为每一条线调整控制点
+  drawBezier(bezierPts1, scatterFactor);
+  drawBezier(bezierPts2, scatterFactor);
+  drawBezier(bezierPts3, scatterFactor);
+  drawBezier(bezierPts4, scatterFactor);
+  drawBezier(bezierPts5, scatterFactor);
+  drawBezier(bezierPts6, scatterFactor);
+  drawBezier(bezierPts7, scatterFactor);
+  drawBezier(bezierPts8, scatterFactor);
+  drawBezier(bezierPts9, scatterFactor);
+  drawBezier(bezierPts10, scatterFactor);
+  drawBezier(bezierPts11, scatterFactor);
+  drawBezier(bezierPts12, scatterFactor);
+  drawBezier(bezierPts13, scatterFactor);
+  drawBezier(bezierPts14, scatterFactor);
+  drawBezier(bezierPts15, scatterFactor);
+  drawBezier(bezierPts16, scatterFactor);
+  drawBezier(bezierPts17, scatterFactor);
+  drawBezier(bezierPts18, scatterFactor);
+  
+  fill(#1e1820);
+  drawBezier(bezierPts19, scatterFactor);
+  drawBezier(bezierPts20, scatterFactor);
+  drawBezier(bezierPts21, scatterFactor);
+  drawBezier(bezierPts22, scatterFactor);
+  fill(#676262);
+  drawBezier(bezierPts23, scatterFactor);
+  drawBezier(bezierPts24, scatterFactor);
+  fill(#1e1820);
+  drawBezier(bezierPts25, scatterFactor);
+  drawBezier(bezierPts26, scatterFactor);
+  drawBezier(bezierPts27, scatterFactor);
+  drawBezier(bezierPts28, scatterFactor);
+  drawBezier(bezierPts29, scatterFactor);
+  fill(#676262);
+  quad(681 + quadOffsetX1, 732 + quadOffsetY1, 
+       669 + quadOffsetX2, 748 + quadOffsetY2, 
+       643, 661, 683, 625);
+  fill(#1e1820);
+  drawBezier(bezierPts30, scatterFactor);
+  drawBezier(bezierPts31, scatterFactor);
+  drawBezier(bezierPts32, scatterFactor);
+  fill(#676262);
+  drawBezier(bezierPts33, scatterFactor);
+  drawBezier(bezierPts34, scatterFactor);
+  drawBezier(bezierPts35, scatterFactor);
+  drawBezier(bezierPts36, scatterFactor);
+  quad(369 + quadOffsetX1, 709 + quadOffsetY1, 
+       405 + quadOffsetX2, 736 + quadOffsetY2, 
+       421, 645, 392, 623);
+  fill(#1e1820);
+  drawBezier(bezierPts37, scatterFactor);
+  drawBezier(bezierPts38, scatterFactor);
+  drawBezier(bezierPts39, scatterFactor);
+  drawBezier(bezierPts40, scatterFactor);
+  drawBezier(bezierPts41, scatterFactor);
+  drawBezier(bezierPts42, scatterFactor);
+  drawBezier(bezierPts43, scatterFactor);
+  drawBezier(bezierPts44, scatterFactor);
+  drawBezier(bezierPts45, scatterFactor);
+  drawBezier(bezierPts46, scatterFactor);
+  drawBezier(bezierPts47, scatterFactor);
+  drawBezier(bezierPts48, scatterFactor);
+  drawBezier(bezierPts49, scatterFactor);
+  drawBezier(bezierPts50, scatterFactor);
+  drawBezier(bezierPts51, scatterFactor);
+  drawBezier(bezierPts52, scatterFactor);
+  drawBezier(bezierPts53, scatterFactor);
+  drawBezier(bezierPts54, scatterFactor);
+  drawBezier(bezierPts55, scatterFactor);
+  drawBezier(bezierPts56, scatterFactor);
+  rect(500 + rectOffsetX, 514+ rectOffsetY, 73, 76);
+  rect(456 + rectOffsetX, 850+ rectOffsetY, 180, 276);
+  rect(445 + rectOffsetX, 604+ rectOffsetY, 172, 255);
+  rect(428 + rectOffsetX, 1072+ rectOffsetY, 73, 500);
+  drawBezier(bezierPts57, scatterFactor);
+  drawBezier(bezierPts58, scatterFactor);
+  drawBezier(bezierPts59, scatterFactor);
+  drawBezier(bezierPts60, scatterFactor);
+  drawBezier(bezierPts61, scatterFactor);
+  drawBezier(bezierPts62, scatterFactor);
+  drawBezier(bezierPts63, scatterFactor);
+  drawBezier(bezierPts64, scatterFactor);
+  drawBezier(bezierPts65, scatterFactor);
+  drawBezier(bezierPts66, scatterFactor);
+  drawBezier(bezierPts67, scatterFactor);
+  drawBezier(bezierPts68, scatterFactor);
+  drawBezier(bezierPts69, scatterFactor);
+  drawBezier(bezierPts70, scatterFactor);
+  drawBezier(bezierPts71, scatterFactor);
+  drawBezier(bezierPts72, scatterFactor);
+  drawBezier(bezierPts73, scatterFactor);
+  drawBezier(bezierPts74, scatterFactor);
+  drawBezier(bezierPts75, scatterFactor);
+  fill(#680626);
+  quad(491 + quadOffsetX1, 530 + quadOffsetY1, 
+       544 + quadOffsetX2, 529 + quadOffsetY2, 
+       554, 516, 499, 504);
+  quad(580 + quadOffsetX1, 548 + quadOffsetY1, 
+       576 + quadOffsetX2, 509 + quadOffsetY2, 
+       554, 514, 542, 528);
+  quad(544 + quadOffsetX1, 555 + quadOffsetY1, 
+       550 + quadOffsetX2, 538 + quadOffsetY2, 
+       558, 516, 528, 523);
+  drawBezier(bezierPts76, scatterFactor);
+  drawBezier(bezierPts77, scatterFactor);
+  drawBezier(bezierPts78, scatterFactor);
+  drawBezier(bezierPts79, scatterFactor);
+  drawBezier(bezierPts80, scatterFactor);
+  quad(526 + quadOffsetX1, 700 + quadOffsetY1, 
+       506 + quadOffsetX2, 673 + quadOffsetY2, 
+       519, 644, 534, 670);
+  quad(559 + quadOffsetX1, 703 + quadOffsetY1, 
+       571 + quadOffsetX2, 669 + quadOffsetY2, 
+       556, 642, 544, 674);
+  quad(563 + quadOffsetX1, 853 + quadOffsetY1, 
+       550 + quadOffsetX2, 854 + quadOffsetY2, 
+       547, 776, 560, 780);
+  quad(282 + quadOffsetX1, 1247 + quadOffsetY1, 
+       287 + quadOffsetX2, 1195 + quadOffsetY2, 
+       295, 1190, 293, 1243);
+  quad(778 + quadOffsetX1, 1120 + quadOffsetY1, 
+       768 + quadOffsetX2, 1127 + quadOffsetY2, 
+       765, 1165, 779, 1157);
+  fill(#1e1820);
+  quad(526 + quadOffsetX1, 700 + quadOffsetY1, 
+     506 + quadOffsetX2, 673 + quadOffsetY2, 
+     519, 644, 534, 670);
+  quad(524 + quadOffsetX1, 689 + quadOffsetY1, 
+     515 + quadOffsetX2, 669 + quadOffsetY2, 
+     521, 657, 526, 670);
+  quad(555 + quadOffsetX1, 694 + quadOffsetY1, 
+     564 + quadOffsetX2, 671 + quadOffsetY2, 
+     552, 679, 544, 674);
+  quad(554 + quadOffsetX1, 672 + quadOffsetY1, 
+     552 + quadOffsetX2, 669 + quadOffsetY2, 
+     559, 660, 562, 667);
+  quad(549 + quadOffsetX1, 385 + quadOffsetY1, 
+     560 + quadOffsetX2, 386 + quadOffsetY2, 
+     566, 393, 540, 389);
+  quad(534 + quadOffsetX1, 380 + quadOffsetY1, 
+     545 + quadOffsetX2, 385 + quadOffsetY2, 
+     575, 388, 540, 389);
+  quad(648 + quadOffsetX1, 415 + quadOffsetY1, 
+     637 + quadOffsetX2, 415 + quadOffsetY2, 
+     620, 404, 650, 417);
+  quad(644 + quadOffsetX1, 421 + quadOffsetY1, 
+     646 + quadOffsetX2, 420 + quadOffsetY2, 
+     652, 415, 623, 409);
+  fill(#419569);
+  drawBezier(bezierPts81, scatterFactor);
+  drawBezier(bezierPts82, scatterFactor);
+  drawBezier(bezierPts83, scatterFactor);
+  drawBezier(bezierPts84, scatterFactor);
+  drawBezier(bezierPts85, scatterFactor);
+  drawBezier(bezierPts86, scatterFactor);
+  drawBezier(bezierPts87, scatterFactor);
+  drawBezier(bezierPts88, scatterFactor);
+  quad(530 + quadOffsetX1, 535 + quadOffsetY1, 
+     499 + quadOffsetX2, 536 + quadOffsetY2, 
+     519, 574, 513, 547);
+  quad(583 + quadOffsetX1, 553 + quadOffsetY1, 
+     554 + quadOffsetX2, 546 + quadOffsetY2, 
+     562, 572, 565, 557);
+  triangle(1,1,2,2,3,3);
+  float radiusChange = map(distance, 0, width / 2, 20, 200);
+  currentRadius = constrain(radiusChange, 20, 200);
+  fill(190, 250, 60,155);
+  ellipse(centerX, centerY, currentRadius * 2, currentRadius * 2);
+   fill(#D60202);
+  float moveFactor = map(distance, 0, 400, 200, 0); // 最大平移300像素
+  quad(1414+0.3* moveFactor, -377- moveFactor,0.3* moveFactor + 786, 624 - moveFactor, 0.3* moveFactor +504, 870- moveFactor,  0.3* moveFactor +676, 507- moveFactor);
+  quad(1585+0.3* moveFactor, -377- moveFactor,0.3* moveFactor + 895, 817- moveFactor,0.3* moveFactor +  645, 1033- moveFactor,0.3* moveFactor +  792, 722- moveFactor);
+  float starSize = 70 + sin(frameCount*0.5) * 40; // 使用正弦函数实现动态大小变化
+  fill(255);
+  drawStar(200, 400, starSize * 0.5, starSize, 4);
+  drawStar(39, 736, starSize * 0.5, starSize, 4);
+  drawStar(141, 1208, starSize * 0.5, starSize, 4);
+  drawStar(922, 1098, starSize * 0.5, starSize, 4);
+}
+void drawStar(float x, float y, float radius1, float radius2, int npoints) {
+  float angle = TWO_PI / npoints; 
+  beginShape();
+  for (float a = 0; a < TWO_PI; a += angle) {
+    float sx = x + cos(a) * radius2; 
+    float sy = y + sin(a) * radius2; 
+    vertex(sx, sy);
+    sx = x + cos(a + angle / 2) * radius1; 
+    sy = y + sin(a + angle / 2) * radius1; 
+    vertex(sx, sy);
+  }
+  endShape(CLOSE);
+}
+
+void drawBezier(float[] pts, float scatterFactor){
+  float x1 = pts[0] + random(-scatterFactor, scatterFactor);
+  float y1 = pts[1] + random(-scatterFactor, scatterFactor);
+  float x2 = pts[2] + random(-scatterFactor, scatterFactor);
+  float y2 = pts[3] + random(-scatterFactor, scatterFactor);
+  float x3 = pts[4] + random(-scatterFactor, scatterFactor);
+  float y3 = pts[5] + random(-scatterFactor, scatterFactor);
+  float x4 = pts[6] + random(-scatterFactor, scatterFactor);
+  float y4 = pts[7] + random(-scatterFactor, scatterFactor);
+  bezier(x1, y1, x2, y2, x3, y3, x4, y4);
+}
